@@ -83,3 +83,43 @@ def main():
 
 if __name__ == "__main__":
     main()
+students = []
+courses = []
+
+def input_students():
+    num_students = int(input("Enter number of students: "))
+    for _ in range(num_students):
+        id = input("Enter student id: ")
+        name = input("Enter student name: ")
+        dob = input("Enter student DoB: ")
+        students.append((id, name, dob))
+
+def input_courses():
+    num_courses = int(input("Enter number of courses: "))
+    for _ in range(num_courses):
+        id = input("Enter course id: ")
+        name = input("Enter course name: ")
+        courses.append((id, name))
+
+def input_marks():
+    course_id = input("Enter course id to input marks: ")
+    for course in courses:
+        if course[0] == course_id:
+            for student in students:
+                mark = input(f"Enter mark for student {student[1]}: ")
+                student.append((course_id, mark))
+
+def list_courses():
+    for course in courses:
+        print(course)
+
+def list_students():
+    for student in students:
+        print(student)
+
+def show_marks():
+    course_id = input("Enter course id to show marks: ")
+    for student in students:
+        for i in range(3, len(student)):
+            if student[i][0] == course_id:
+                print(f"Student {student[1]} got {student[i][1]} in course {course_id}")
