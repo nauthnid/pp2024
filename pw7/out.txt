@@ -1,0 +1,13 @@
+total 44
+drwxr-xr-x 6 m3rl1n m3rl1n 4096 Mar 12 14:13 .
+drwxr-xr-x 3 m3rl1n m3rl1n 4096 Mar 12 09:22 ..
+drwxr-xr-x 8 m3rl1n m3rl1n 4096 Mar 12 14:05 .git
+-rw-r--r-- 1 m3rl1n m3rl1n 3920 Mar 12 09:26 1.student.mark.py
+-rw-r--r-- 1 m3rl1n m3rl1n 2358 Mar 12 09:52 2.student.mark.py
+-rw-r--r-- 1 m3rl1n m3rl1n 3549 Mar 12 13:17 3.student.mark.py
+-rw-r--r-- 1 m3rl1n m3rl1n  530 Mar 12 14:12 7.shell.py
+-rwxr-xr-x 1 m3rl1n m3rl1n  332 Mar 12 09:21 README.md
+-rw-r--r-- 1 m3rl1n m3rl1n    0 Mar 12 14:13 out.txt
+drwxr-xr-x 3 m3rl1n m3rl1n 4096 Mar 12 13:22 pw4
+drwxr-xr-x 3 m3rl1n m3rl1n 4096 Mar 12 13:56 pw5
+drwxr-xr-x 3 m3rl1n m3rl1n 4096 Mar 12 14:04 pw6
